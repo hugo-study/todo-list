@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border: 1px dotted greenyellow;
+    background-color: black;
+    color: greenyellow;
+    padding: 15px;
+}
+
+input {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 3px solid greenyellow;
+    padding: 50px;
+}
