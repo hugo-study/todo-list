@@ -1,5 +1,5 @@
 function insertItem(text) {
-    if(text) {
+    if(text.trim()) {
         var ul = document.getElementById("list");
         var li = document.createElement("li");
         li.innerText = text;
