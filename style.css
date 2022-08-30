@@ -37,3 +37,24 @@ input {
 .list-ul {
     text-align: left;
 }
+
+.list-li {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.list-li-close {
+    color: green;
+    text-decoration: line-through;
+}
+
+.list-li-button {    
+    background-color: #000000;
+    border: 1px solid white;
+    margin-left: 13px;
+    padding: 10px;
+    color: white;
+}
